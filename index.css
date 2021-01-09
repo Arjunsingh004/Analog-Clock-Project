@@ -1,0 +1,53 @@
+#clockcontainer{
+    position: relative;
+    background-color: aqua;
+    height: 40vw;
+    width: 50vw;
+   
+    margin: auto;
+    background: url(clock.jpg) no-repeat;
+    /* border: 2px solid red; */
+    background-size: 100%;
+}
+
+#hour , #minute , #second {
+     position: absolute;  /*isse top aur left right se move kr skte h jtna ham chahe */
+    /* background: black; */
+    border-radius: 20px;
+    transform-origin: bottom; /*isse bottom(center of clock) se suiee rotate honge */
+
+}
+
+#hour{
+    width: 1%;
+    height: 33%;
+    top: 12%;
+    left: 48.9%;
+    opacity: 0.8;;
+    background: red;
+    /* display: none; */
+
+}
+#minute{
+    width: 1%;
+    height: 24%;
+    top: 22%;
+    left: 48.9%;
+    opacity: 0.8;
+    background: royalblue;
+    /* display: none; */
+
+
+}
+
+#second{
+    width: 1%;
+    height: 24%;
+    top: 22%;
+    left: 48.9%;
+    opacity: 0.8;
+    background: black;
+    /* display: none; */
+
+
+}
